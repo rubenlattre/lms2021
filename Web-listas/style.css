@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(168, 204, 204);
+}
+li{
+    width: 60%;
+}
+ul{
+    border-style: dotted;
+    width: 30% ;
+}
+ol{
+    border-style: groove;
+    width: 60%;
+    list-style-type: decimal-leading-zero;
+}
+
+.listaRomanos{
+    border-style: inset;
+    width: 27%;
+    list-style-type: upper-roman;
+}
+.listaAzul{
+    background-color: lightskyblue;
+}
+#celdaD{
+    color: red;
+}
+
+#textoB{
+    color: seagreen;
+}
+ .sinborde{
+     border-style: unset;
+     width: 100%;
+ }
