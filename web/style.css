@@ -23,7 +23,7 @@ th {
 tfoot{
     background-color: bisque;
     font-weight: bold;
-    text-align: end;
+    text-align:right;
 }
 #celdaMesa{
     font-weight: bold;
