@@ -2,8 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-   
 
+    
 }
 
 nav, header, footer{
@@ -18,8 +18,8 @@ aside, main{
     border-width: 1px;
     height: calc( 100vh - 150px );
     display: inline-block;
-    overflow: auto;
-
+    overflow: auto; 
+    
 }
 aside{
     width: 100px;
