@@ -28,7 +28,64 @@ aside{
 main{ 
    width: calc( 100% - 100px ); 
    float: right;
+   padding: 20px 15px;
 }
 footer{
     clear: both;
+}
+aside > a {
+   display: block;
+   width: 90%;
+   background-color: lightskyblue;
+   margin: auto;
+   margin-bottom: 8px;
+   padding: 5px 3px;
+   text-align: center;
+   color: black;
+   text-decoration:none ;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 5px;
+   border-color: lightskyblue;
+}
+aside > a:hover{
+   border-color: black;
+}
+aside > a:active{
+    color: blanchedalmond;
+}
+body{
+    font-family: sans-serif;
+}
+main > section {
+    margin-bottom: 50px;
+    border-bottom-style: solid;
+
+}
+section > h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: chocolate;
+    padding: 5px;
+}
+article{
+    margin-bottom: 50px;
+}
+article > h2 {
+
+}
+article > video, article > iframe {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+article > audio{
+    display: block;
+    margin-left: 5%;
+}
+article > p{
+    text-align: end;
+    width: 90%;
+    margin: auto;
 }
